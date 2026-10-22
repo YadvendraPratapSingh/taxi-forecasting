@@ -20,6 +20,8 @@ No activation or execution-policy change is necessary. The test suite uses
 synthetic inputs and mocked cloud clients. A passing test suite does not prove
 cloud availability or model accuracy. Core requirements do not include the
 optional dashboard or managed-monitoring dependencies.
+The core requirements constrain SQLAlchemy below 2.1 for compatibility with
+the pinned MLflow version.
 
 Use 64-bit Python 3.11 even when a newer system Python is installed. Verify with
 `.\.venv\Scripts\python.exe --version`; an existing environment keeps the version
