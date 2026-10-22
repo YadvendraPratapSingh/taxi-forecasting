@@ -1,6 +1,6 @@
 # Model Card — taxi-fare-predictor
 
-_Generated: 2026-10-11 07:15 UTC_
+_Generated: 2026-10-22 15:24 UTC_
 
 ## Model details
 
